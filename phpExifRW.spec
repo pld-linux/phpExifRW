@@ -2,12 +2,12 @@
 Summary:	An Exif reader & writer
 Summary(pl):	Klasa do odczytu i zapisu Exif
 Name:		phpExifRW
-Version:	1.0
+Version:	1.1
 Release:	1
 License:	LGPL v2
 Group:		Development/Languages/PHP
 Source0:	http://www.vinayras.com/projects/%{name}-%{version}.tar.gz
-# Source0-md5:	831e9745c47138dfa45957fc3c3e00a3
+# Source0-md5:	27a9313e8682e54db9f2255ffac7de60
 URL:		http://www.vinayras.com/project/phpexifrw.php
 BuildRequires:	rpm-php-pearprov
 Requires:	php-exif

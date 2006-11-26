@@ -3,14 +3,14 @@ Summary:	An Exif reader & writer
 Summary(pl):	Klasa do odczytu i zapisu Exif
 Name:		phpExifRW
 Version:	1.1
-Release:	1
+Release:	2
 License:	LGPL v2
 Group:		Development/Languages/PHP
 Source0:	http://www.vinayras.com/projects/%{name}-%{version}.tar.gz
 # Source0-md5:	27a9313e8682e54db9f2255ffac7de60
 URL:		http://www.vinayras.com/project/phpexifrw.php
 BuildRequires:	rpm-php-pearprov
-Requires:	php-exif
+Requires:	php(exif)
 Requires:	php-pear
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -25,8 +25,7 @@ their default installation of PHP.
 phpExifRW to napisana w czystym PHP klasa do odczytu, zapisu i
 przesy³ania informacji EXIF tworzonych przez wiêkszo¶æ aparatów
 cyfrowych. Klasa ta przezwyciê¿a problem istniej±cy w wiêkszo¶ci
-dystrybucji nie dodaj±cych rozszerzeñ Exif w domy¶lnej instalacji
-PHP.
+dystrybucji nie dodaj±cych rozszerzeñ Exif w domy¶lnej instalacji PHP.
 
 %prep
 %setup -q

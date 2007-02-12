@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	An Exif reader & writer
-Summary(pl):	Klasa do odczytu i zapisu Exif
+Summary(pl.UTF-8):   Klasa do odczytu i zapisu Exif
 Name:		phpExifRW
 Version:	1.1
 Release:	2
@@ -21,11 +21,11 @@ information that most digital cameras produce. This class overcomes
 the problem of most distributions that do not add Exif extensions in
 their default installation of PHP.
 
-%description -l pl
+%description -l pl.UTF-8
 phpExifRW to napisana w czystym PHP klasa do odczytu, zapisu i
-przesy³ania informacji EXIF tworzonych przez wiêkszo¶æ aparatów
-cyfrowych. Klasa ta przezwyciê¿a problem istniej±cy w wiêkszo¶ci
-dystrybucji nie dodaj±cych rozszerzeñ Exif w domy¶lnej instalacji PHP.
+przesyÅ‚ania informacji EXIF tworzonych przez wiÄ™kszoÅ›Ä‡ aparatÃ³w
+cyfrowych. Klasa ta przezwyciÄ™Å¼a problem istniejÄ…cy w wiÄ™kszoÅ›ci
+dystrybucji nie dodajÄ…cych rozszerzeÅ„ Exif w domyÅ›lnej instalacji PHP.
 
 %prep
 %setup -q

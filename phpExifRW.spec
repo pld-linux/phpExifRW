@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	An Exif reader & writer
-Summary(pl.UTF-8):   Klasa do odczytu i zapisu Exif
+Summary(pl.UTF-8):	Klasa do odczytu i zapisu Exif
 Name:		phpExifRW
 Version:	1.1
 Release:	2
